@@ -2,6 +2,7 @@ import streamlit as st
 
 st.title("🌎 Unit Convertor App By Muneeb")
 st.write("🚀 Fast unit conversion for everyone! Creating the project for Quarter 3!")
+st.set_page_config(page_title="Unit Converter", page_icon="🔄", layout="wide")
 
 def convert_unit(value, unit_from, unit_to, category):
     # Temperature conversions require formulas
